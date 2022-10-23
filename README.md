@@ -21,3 +21,6 @@ Your users should be able to:
 ## Difficulties:
 
 - It was my first time using JSON, but I don't think I used it right. I basically just copy pasted the data.json file into my app.js and used it as an object.
+
+## Live site URL:
+https://dlxzeus777.github.io/Time-tracking-dashboard/
