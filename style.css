@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(226, 43%, 10%);
+}
+
+/* DISPLAY BLOCK THESE TWO */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 1rem;
+}
+
+/* DISPLAY BLOCK THESE TWO */
+
+.container{
+    display: flex;
+    gap: 1rem;
+}
+.jeremy-container
+{
+    background-color: hsl(246, 80%, 60%);
+    padding: 2rem;
+    padding-right: 7rem;
+    border-radius: 17px;
+    padding-bottom: 5rem;
+}
+.timeframes-container
+{
+    background-color: hsl(235, 46%, 20%);
+    padding: 2rem;
+    padding-right: 7rem;
+    color: white;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+
+.img-box img
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.img-box
+{
+    margin-bottom: 2rem;
+}
+.report
+{
+    color: white;
+    opacity: .7;
+    font-weight: 300;
+}
+.name p 
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: white;
+}
+.wrapper
+{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 17px;
+    margin-bottom: 17px;
+}
+.top
+{
+    width: 100%;
+    height: 3.5rem;
+    background: url('./images/icon-work.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: hsl(15, 100%, 70%);
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+
+.text
+{
+    border-radius: 17px;
+    padding: 2rem;
+    background-color: hsl(235, 46%, 20%);
+}
+.activity
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.activity p
+{
+    margin-top: 0;
+}
+.card
+{
+    background-color: hsl(15, 100%, 70%);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.heading
+{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+.time
+{
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+.previous
+{
+    color: white;
+    opacity: .7;
+}
+
+.play
+{
+    background: url('./images/icon-play.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: hsl(195, 74%, 62%);
+}
+.study
+{
+    background: url('./images/icon-study.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: hsl(348, 100%, 68%);
+}
+
+.exercise
+{
+    background: url('./images/icon-exercise.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: hsl(145, 58%, 55%);
+}
+
+.social
+{
+    background: url('./images/icon-social.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: hsl(264, 64%, 52%);
+}
+
+.self-care
+{
+    background: url('./images/icon-self-care.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: hsl(43, 84%, 65%);
+}
+
+.play-color
+{
+    background-color: hsl(195, 74%, 62%);
+}
+.study-color
+{
+    background-color: hsl(348, 100%, 68%);
+}
+.exercise-color
+{
+    background-color: hsl(145, 58%, 55%);
+}
+.social-color
+{
+    background-color: hsl(264, 64%, 52%);
+}
+.self-care-color
+{
+    background-color: hsl(43, 84%, 65%);
+}
+.text .time{
+    font-weight: 300;
+}
+.text .previous
+{
+    font-weight: 300;
+}
+.img img:hover{
+    cursor: pointer;
+}
+.timeframe
+{
+    color: hsl(236, 100%, 87%);
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 1rem;
+}
+.timeframe:hover
+{
+    cursor: pointer;
+    color: white;
+}
+
+.timeframe:focus
+{
+    color: white;
+}
+.text:hover
+{
+    background-color: hsl(246, 80%, 60%);
+    cursor: pointer;
+}
+
+@media (max-width: 1090px)
+{
+    body{
+        padding: 1rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-container
+    {
+        display: block;
+    }
+    .containers
+    {
+        margin-bottom: 1rem;
+    }
+    .timeframes-container
+    {
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .timeframes{
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 310px)
+{
+    .container
+    {
+        width: 14rem;
+    }
+}
